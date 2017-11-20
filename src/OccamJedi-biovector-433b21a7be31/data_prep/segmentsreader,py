@@ -1,0 +1,6 @@
+import pickle
+f=open("segmentsnew")
+data=pickle.load(f)
+for i in data:
+    print '\t'.join(i)
+
